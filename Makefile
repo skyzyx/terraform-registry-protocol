@@ -60,7 +60,7 @@ build-release-prep:
 .PHONY: build
 ## build: [build] compiles the source code into a native binary
 build: build-prep
-	$(GO) build -ldflags="-s -w  -X main.commit=$$(git rev-parse HEAD) -X main.date=$$(date -I) -X main.version=$$(cat ../VERSION | tr -d '\n')" -o bin/provider_registry_protocol *.go
+	$(GO) build -ldflags="-s -w  -X main.commit=$$(git rev-parse HEAD) -X main.date=$$(date -I) -X main.version=$$(cat ./VERSION | tr -d '\n')" -o bin/provider_registry_protocol *.go
 
 .PHONY: new-golang
 ## new-golang: [build] installs a non-standard/future version of Golang
