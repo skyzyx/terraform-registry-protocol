@@ -31,3 +31,14 @@ To avoid confusion, only ONE of each of these topics/tags is permitted. (Any beh
 | `DEFAULT_PROVIDER_NS` |             |
 | `GHE_TOKEN`           |             |
 | `GHE_BASE_URL`        |             |
+
+## Learn more…
+
+* https://www.terraform.io/docs/cli/config/config-file.html
+* https://www.terraform.io/docs/cloud/api/modules.html
+* https://www.terraform.io/docs/internals/credentials-helpers.html
+* https://www.terraform.io/docs/internals/login-protocol.html
+* https://www.terraform.io/docs/internals/module-registry-protocol.html
+* https://www.terraform.io/docs/internals/provider-network-mirror-protocol.html
+* https://www.terraform.io/docs/internals/provider-registry-protocol.html
+* https://www.terraform.io/docs/internals/remote-service-discovery.html

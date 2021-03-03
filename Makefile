@@ -32,7 +32,7 @@ tools-go-get:
 tools-linux: tools-go-get
 	curl -sfSL https://install.goreleaser.com/github.com/goreleaser/goreleaser.sh | sh -s -- -b $$(go env GOPATH)/bin/goreleaser
 	curl -sfSL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $$(go env GOPATH)/bin # wokeignore:rule=master
-	curl -sfSL https://github.com/ekalinin/github-markdown-toc.go/releases/download/1.0.0/gh-md-toc.linux.amd64.tgz
+	curl -sfSL https://github.com/ekalinin/github-markdown-toc.go/releases/download/1.2.0/gh-md-toc.linux.amd64.tgz
 
 .PHONY: tools-mac
 ## tools-mac: [deps] installs the tools using Mac-friendly Homebrew (includes `go get` tools)
