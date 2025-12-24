@@ -1,9 +1,14 @@
 module github.com/skyzyx/terraform-registry-protocol
 
-go 1.16
+go 1.23.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/google/go-github/v32 v32.1.0
-	golang.org/x/oauth2 v0.0.0-20210220000619-9bb904979d93
+	golang.org/x/oauth2 v0.27.0
+)
+
+require (
+	github.com/google/go-querystring v1.0.0 // indirect
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
 )
